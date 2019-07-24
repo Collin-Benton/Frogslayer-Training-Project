@@ -1,7 +1,6 @@
 ##------------------------------------------------------------------------------
 # Function: Apply_Brackets_Rule (input text)
 def apply_bracket_rule (input_text):
-    pass
 #   copy input text into new variable output text
 #   for every line in output text:
 #       if there is a bracket:

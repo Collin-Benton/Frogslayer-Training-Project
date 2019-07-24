@@ -18,8 +18,8 @@ def main ():
 #   apply rules
     output_text = apply_indentation_rule(output_text)
     output_text = apply_bracket_rule(output_text)
-    output_text = apply_parenthesis_rule(output_text)
-    output_text = apply_for_loop_rule(output_text)    
+#    output_text = apply_parenthesis_rule(output_text)
+#    output_text = apply_for_loop_rule(output_text)    
 
 #   set output file to output text
     output_file.write(output_text)
@@ -28,7 +28,6 @@ def main ():
     input_file.close()
     output_file.close()
     return 0
-
 
 ##------------------------------------------------------------------------------
 # Function: Input_File ()
