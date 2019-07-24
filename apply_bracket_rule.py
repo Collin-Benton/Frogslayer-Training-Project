@@ -1,12 +1,15 @@
 ##------------------------------------------------------------------------------
 # Function: Apply_Brackets_Rule (input text)
 def apply_bracket_rule (input_text):
-#   copy input text into new variable output text
-#   for every line in output text:
+    output_text = ''
+#   for every line in input text:
+    for line in input_text.splitlines():
 #       if there is a bracket:
-#           check if it has anything before it
+        if (input_text.find('\{') >= 0):
 #           if it has non-whitespace characters before it:
+            if (line[:input_text.find('\{')] ):
 #               put it on a new line after the current line
+                pass
 #           get number of indentations from line above
 #           if it does not have the correct number of indentations:
 #               add the correct number of indentations

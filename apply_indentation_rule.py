@@ -4,7 +4,7 @@ import math
 # Function: Apply_Indentation_Rule (input text)
 def apply_indentation_rule(input_text):
     output_text = ''
-#   for every line in output text:
+#   for every line in input text:
     for line in input_text.splitlines():
 #       check beginning of line for indentation
 #       if indentation is using spaces
