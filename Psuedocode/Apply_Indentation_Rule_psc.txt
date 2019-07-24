@@ -1,0 +1,9 @@
+Function: Apply_Indentation_Rule (input text)
+    copy input text into new variable output text
+    for every line in output text:
+        check beginning of line for indentation
+        if indentation is present:
+            check if it is a tab
+            if it is not a tab:
+                change it to a tab
+    return output text

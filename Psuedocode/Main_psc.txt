@@ -1,0 +1,15 @@
+import Rules functions
+
+Function: Main ()
+    get input file
+    create output file
+    get text from input file
+    create output text & initialize to input text
+    for each rule:
+        apply rule to output text
+    set output file to output text
+    save and close all files
+
+Function: Input_File ()
+    get file from command line
+    return file
